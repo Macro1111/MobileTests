@@ -1,0 +1,15 @@
+<!--
+    TestNG Suite configuration file for running the full set of tests.
+    - Suite name: Full Suite
+    - Executes all tests defined in the class 'com.globant.webdriver.tests.Tests'
+    - Parallel execution is disabled (parallel="false")
+    - Designed for comprehensive test coverage of the application
+-->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Full Suite" parallel="false">
+    <test name="Tests full suite">
+        <classes>
+            <class name="com.globant.webdriver.tests.Tests"/>
+        </classes>
+    </test>
+</suite>
